@@ -1,0 +1,18 @@
+body {
+  background: url('./src/page1_background.jpg') no-repeat top / cover;
+  bottom: 0;
+  position: fixed;
+  top: 0;
+  margin: 0;
+}
+#button{
+  background-image:url(./src/button.png);
+  background-size: cover;
+  z-index: -1;
+  width: 16.98vw;
+  height: 7.08vw;
+  background-color:transparent;
+  position: relative;
+  top: 32vw;
+  left: 40vw;
+}

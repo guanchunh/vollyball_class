@@ -1,0 +1,51 @@
+body {
+    background: url('./src/page2_background.jpg') no-repeat top / cover;
+    bottom: 0;
+    position: fixed;
+    top: 0;
+    margin: 0;
+  }
+#setter{
+  background-image:url(./src/Setter.png);
+  background-size: cover;
+  z-index: -1;
+  width: 7.095vw;
+  height: 21.12vw;
+  background-color:transparent;
+  position: relative;
+  top: 21vw;
+  left: 40vw;
+}
+#libero{
+    background-image:url(./src/Libero.png);
+    background-size: cover;
+    z-index: -1;
+    width: 9.845vw;
+    height: 6.93vw;
+    background-color:transparent;
+    position: relative;
+    top: -0.2vw;
+    left: 53vw;
+}
+#middle{
+    background-image:url(./src/Middle.png);
+    background-size: cover;
+    z-index: -1;
+    width: 8.417vw;
+    height: 14.63vw;
+    background-color:transparent;
+    position: relative;
+    top: -1.5vw;
+    left: 64vw;
+}
+#hitter{
+    background-image:url(./src/Hitter.png);
+    background-size: cover;
+    z-index: -1;
+    width: 11.65vw;
+    height: 16.6vw;
+    background-color:transparent;
+    position: relative;
+    top: -14vw;
+    left: 80.5vw;
+}
