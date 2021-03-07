@@ -1,0 +1,41 @@
+body {
+  
+    background: url('./src/libero_background.png') no-repeat top / contain;
+    bottom: 0;
+    top: 0;
+    margin: 0;
+    height: 740px;
+    
+  }
+  #main {
+    box-sizing: border-box;
+    padding: 1px 6% 5vh;
+    bottom: 10%;
+    top: 20%;
+    right: 20%;
+    left: 40%;
+    z-index: -1;
+    width: 51%;
+    height:578px;
+    overflow-y: scroll;
+    display: inline-block;
+}
+p {
+  
+  width: 30em;
+  line-height: 30px;
+  font-size:100%;
+  font-family:DFKai-sb;
+  
+}
+#no_use1{
+  background-color:transparent;
+  height:150px;
+}
+#no_use2{
+  background-color:transparent;
+  width:605px;
+  height:100px;
+  display: inline-flex;
+  z-index: -1;
+}

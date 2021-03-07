@@ -1,9 +1,10 @@
 body {
-    background: url('./src/page2_background.jpg') no-repeat top / cover;
+    background: url('./src/page2_background.jpg') no-repeat top / contain;
     bottom: 0;
-    position: fixed;
+    
     top: 0;
     margin: 0;
+    height: 740px;
   }
 #setter{
   background-image:url(./src/Setter.png);
@@ -13,8 +14,9 @@ body {
   height: 21.12vw;
   background-color:transparent;
   position: relative;
-  top: 21vw;
-  left: 40vw;
+  top: 20vw;
+  left: 39vw;
+  border:none;
 }
 #libero{
     background-image:url(./src/Libero.png);
@@ -24,8 +26,9 @@ body {
     height: 6.93vw;
     background-color:transparent;
     position: relative;
-    top: -0.2vw;
-    left: 53vw;
+    top: 6.2vw;
+    left: 44.2vw;
+    border:none;
 }
 #middle{
     background-image:url(./src/Middle.png);
@@ -35,8 +38,9 @@ body {
     height: 14.63vw;
     background-color:transparent;
     position: relative;
-    top: -1.5vw;
-    left: 64vw;
+    top: 19.5vw;
+    left: 44.1vw;
+    border:none;
 }
 #hitter{
     background-image:url(./src/Hitter.png);
@@ -46,6 +50,7 @@ body {
     height: 16.6vw;
     background-color:transparent;
     position: relative;
-    top: -14vw;
-    left: 80.5vw;
+    top: 16vw;
+    left: 51vw;
+    border:none;
 }

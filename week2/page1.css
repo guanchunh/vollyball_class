@@ -1,9 +1,9 @@
 body {
-  background: url('./src/page1_background.jpg') no-repeat top / cover;
+  background: url('./src/page1_background.jpg') no-repeat top / contain;
   bottom: 0;
-  position: fixed;
   top: 0;
   margin: 0;
+  height: 740px;
 }
 #button{
   background-image:url(./src/button.png);
